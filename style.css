@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300&family=Roboto:wght@100;300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(140deg, #c7dfd5 0%, #d5e1dd 50%, #e1e2e2 75%);
+    ;
+}
+
+/* navbar start */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    margin: 40px 50px 0 50px;
+}
+
+.list ul {
+    display: flex;
+    list-style: none;
+    gap: 45px;
+    font-size: 1.10rem;
+    font-weight: 800
+}
+
+.bar {
+    display: flex;
+    gap: 15px;
+}
+
+.bar .fa-solid {
+    font-size: 1.25rem;
+    font-weight: 900;
+}
+
+.bar input {
+    border: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 1.25rem;
+}
+
+.icon i {
+    cursor: pointer;
+}
+
+.icon .user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    border: none;
+    border-radius: 50%;
+    background-color: #1414147d;
+}
+
+::before {
+    font-weight: 800;
+}
+
+.bar input {
+    outline: none;
+    background-color: transparent;
+}
+
+.bar i {
+    cursor: pointer;
+}
+
+input::placeholder {
+    color: black;
+    font-weight: 700;
+}
+
+.list ul li {
+    cursor: pointer;
+}
+
+/* navbar end */
+
+/* hero section start */
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0 0 0;
+    gap: 225px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+}
+
+.content h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 12.5rem;
+}
+
+.content h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2.5rem;
+}
+
+.content p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.25rem;
+}
+
+.img img {
+    border: none;
+    border-radius: 25px;
+    height: 850px;
+}
+
+/* hero section end */
+
+/* icon section start */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 50px 0px 50px;
+    gap: 20px;
+}
+
+.recommended {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+}
+
+.recommended .rcmd {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.logo {
+    display: flex;
+    gap: 193.15px;
+}
+
+.logo div img {
+    width: 20px;
+    height: 20px;
+}
+
+.logo div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222121;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+}
+
+.logo .nike {
+    background-color: #c8f548;
+}
+
+.logo_card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cardlogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border: none;
+    border-radius: 50%;
+}
+
+.sectnlogo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.sectnlogo p {
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+}
+
+.recommended .view {
+    cursor: pointer;
+}
+
+.nike,
+.puma,
+.adidas,
+.vans,
+.reebok,
+.newbalance {
+    cursor: pointer;
+}
+
+.sectnlogo p {
+    cursor: pointer;
+}
+
+/* card */
+
+.card {
+    display: flex;
+    gap: 20px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 445px;
+    height: 495px;
+    background-color: #e9f0ee;
+    border-radius: 20px;
+    gap: 35px;
+}
+
+.cards img {
+    width: 360px;
+    border-radius: 10px;
+}
+
+.nike1 {
+    display: flex;
+    flex-direction: column;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+    gap: 20px;
+}
+
+.cardtxt {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardtxt p {
+    font-size: 1.25rem;
+}
+
+.cardicon {
+    display: flex;
+    gap: 10px;
+}
+
+.cardicon .cardlogo {
+    cursor: pointer;
+}
+
+.card img {
+    cursor: pointer;
+}
+
+/* icon section end */
+
+/* aside start */
+
+.main {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.main .temp {
+    width: 1700px;
+    height: 1550px;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    width: 205px;
+    background-color: #f1f7f5;
+    border: none;
+    border-radius: 0 15px 15px 0;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    gap: 10px;
+}
+
+aside .setup {
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+}
+
+aside .ctgy {
+    font-weight: 900;
+}
+
+.asidediv {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.txtinpt {
+    display: flex;
+    gap: 10px;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.txtinpt input[type="text"] {
+    display: flex;
+    width: 65px;
+    height: 30px;
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+}
+
+.hr {
+    padding: 5px 0 0 0;
+    font-weight: 800;
+}
+
+input[type="text"]::placeholder {
+    text-align: center;
+    opacity: 50%;
+}
+
+aside .load {
+    cursor: pointer;
+    font-weight: 700;
+}
+
+
+/* aside end */
