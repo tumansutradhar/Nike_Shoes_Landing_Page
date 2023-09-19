@@ -349,5 +349,56 @@ aside .load {
     font-weight: 700;
 }
 
-
 /* aside end */
+
+/* footer start */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    height: 245px;
+    gap: 20px;
+}
+
+.footericon {
+    display: flex;
+    gap: 30px;
+}
+
+.footericon div .fa-brands {
+    font-size: 2rem;
+}
+
+.footericon div .fa-solid {
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+}
+
+.footericon div .fa-brands{
+    font-size: 2rem;
+}
+
+.footertxt {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.footertxt .fa-solid {
+    font-size: 1.25rem;
+}
+
+style attribute {
+    font-size: 1.25rem;
+    color: #ff0000;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* footer end */
